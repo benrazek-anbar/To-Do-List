@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(160deg,rgba(42, 119, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.task{
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    width: 40%;
+    min-width: 450PX;
+    background-color: white;
+    padding: 20px;
+    transform: translate(-50px, -50px);
+    border-radius: 5px;
+    box-shadow: -9px 9px 0px 2px rgba(0, 0, 0, 0.1);
+}
+.task input{
+    height: 30px;
+    width: 75%;
+    padding-left: 7px;
+    margin-right: 6px;
+}
+.task button{
+    height: 33px;
+    width: 20%;
+    background-color: #2A779B;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.message{
+    margin-top: 22px;
+}
+.tasklist{
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    width: 40%;
+    min-width: 450PX;
+    background-color: white;
+    padding: 20px;
+    transform: translate(-50px, -50px);
+    border-radius: 3px;
+    box-shadow: -9px 9px 0px 2px rgba(0, 0, 0, 0.1);
+    max-height: 246px;
+    overflow-y: auto;
+}
+.tasklist div{
+    border-bottom: solid;
+    border-color: #80808045;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tasklist span{
+    cursor: pointer;
+}
+.tasklist div button{
+    padding: 7px 10px;
+    border: none;
+    background-color: #2A779B;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.done{
+    text-decoration: line-through;
+}
+
+
+
+@media (max-width:800px){
+
+    .task{
+        left: 18%;
+        min-width: 200px;
+        width: 80%;
+    }
+    .task input{
+        height: 30px;
+        width: 73%;
+    }
+    .tasklist{
+        left: 18%;
+        min-width: 200px;
+        width: 80%;
+        margin-top: -10%;
+    }
+}

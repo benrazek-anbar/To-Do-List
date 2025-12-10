@@ -1,9 +1,9 @@
 # To-Do-List
-To-Do List (HTML / CSS / JS)
+<b>To-Do List (HTML / CSS / JS)</b>
 Ce projet est une application simple de To-Do List développée en HTML, CSS et JavaScript. Elle permet à l’utilisateur d’ajouter, supprimer et marquer des tâches comme terminées.
 Les tâches sont enregistrées automatiquement grâce à localStorage, ce qui permet de garder la liste même après avoir fermé la page.
 
-Fonctionnalités principales
+<b>Fonctionnalités principales</b>
 
 ➕ Ajouter une nouvelle tâche
 
@@ -17,11 +17,11 @@ Fonctionnalités principales
 
 🛠️ Technologies utilisées
 
-HTML5 – structure de la page
+<b>HTML5</b> – structure de la page
 
-CSS3 – styles, responsive design
+<b>CSS3</b> – styles, responsive design
 
-<b>JavaScript – logique de l’application, gestion du DOM et de localStorage</b>
+<b>JavaScript</b> – logique de l’application, gestion du DOM et de localStorage</b>
 
  https://benrazek-anbar.github.io/To-Do-List/
  
